@@ -25,7 +25,7 @@ flowchart LR
     F -->|로그 기록| G[(logs 폴더)]
 ```
 
-###📂 Folder Structure
+📂 Folder Structure
 ```
 | 폴더 / 파일           | 설명                                                |
 | ----------------- | ------------------------------------------------- |
@@ -41,7 +41,7 @@ flowchart LR
 | **README.md**     | 프로젝트 설명 문서 (현재 파일)                                |
 ```
 
-###🚀 Quick Start
+🚀 Quick Start
 
 1️⃣ 사전 설치
 
@@ -92,7 +92,7 @@ argo logs -n argo @latest
 
 결과 파일은 /data/results/sample_out.json 에 생성됨.
 
-###🧩 Main Components
+🧩 Main Components
 ```
 구성 요소	설명
 FastAPI	ESP32-CAM으로부터 이미지 수신 및 Argo 트리거
@@ -102,7 +102,7 @@ EasyOCR	텍스트(기둥 번호) 인식
 watch_folder	/uploads 폴더 감시 및 자동 트리거
 Minikube	로컬 쿠버네티스 환경 (Argo 실행 기반)
 ```
-### 🧠 Typical Workflow
+🧠 Typical Workflow
 
 1️⃣ ESP32-CAM → FastAPI 서버로 이미지 업로드
 2️⃣ FastAPI → /data/uploads/ 에 저장
@@ -113,7 +113,7 @@ Minikube	로컬 쿠버네티스 환경 (Argo 실행 기반)
 7️⃣ 로그 → /logs/ 및 콘솔 출력
 
 
-###📜 Example Result
+📜 Example Result
 
 입력:
 ```
