@@ -1,0 +1,16 @@
+{
+  "file": "sample.jpg",
+  "recognized": [
+    {
+      "text": "H31",
+      "conf": 0.9998552613445008,
+      "bbox": [
+        91,
+        171,
+        171,
+        91
+      ]
+    }
+  ],
+  "processing_ms": 42331
+}

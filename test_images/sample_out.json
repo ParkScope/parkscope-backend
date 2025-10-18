@@ -1,0 +1,16 @@
+{
+  "file": "sample.jpg",
+  "recognized": [
+    {
+      "text": "B19",
+      "conf": 0.9980314370913406,
+      "bbox": [
+        130,
+        212,
+        212,
+        130
+      ]
+    }
+  ],
+  "processing_ms": 40268
+}

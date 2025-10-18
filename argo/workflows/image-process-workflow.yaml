@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: image-process-
+spec:
+  entrypoint: main
+  arguments:
+    parameters:
+    - name: image-path
+      value: /data/sample.jpg
+  templates:
+  - name: main
+    inputs:
+      parameters:
+      - name: image-path
+    container:
+      image: esp32-ocr:latest
+      imagePullPolicy: IfNotPresent
+      command: [python, /app/process_image.py]
+      args:
+        - --input
+        - "{{inputs.parameters.image-path}}"
+        - --output
+        - /data/result.json
+      volumeMounts:
+      - name: workspace
+        mountPath: /data
+  volumes:
+  - name: workspace
+    emptyDir: {}

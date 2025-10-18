@@ -1,0 +1,9 @@
+easyocr==1.7.1
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+pillow==10.3.0
+imageio==2.34.0
+scikit-image==0.23.2
+shapely==2.0.3
+pyyaml==6.0.1
+
