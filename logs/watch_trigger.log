@@ -1,27 +1,27 @@
-Name:                image-process-auto-5dqrz
+Name:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Pending
-Created:             Thu Oct 16 15:31:26 +0900 (1 second ago)
+Created:             Mon Oct 20 21:00:21 +0900 (now)
 Progress:            
 Parameters:          
   input:             sample.jpg
   image-path:        /data/sample.jpg
-[H[2J[0;0HName:                image-process-auto-5dqrz
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Pending
-Created:             Thu Oct 16 15:31:26 +0900 (1 second ago)
+Created:             Mon Oct 20 21:00:21 +0900 (now)
 Progress:            
 Parameters:          
   input:             sample.jpg
   image-path:        /data/sample.jpg
-[H[2J[0;0HName:                image-process-auto-5dqrz
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Created:             Thu Oct 16 15:31:26 +0900 (1 second ago)
-Started:             Thu Oct 16 15:31:27 +0900 (now)
+Created:             Mon Oct 20 21:00:21 +0900 (now)
+Started:             Mon Oct 20 21:00:21 +0900 (now)
 Duration:            0 seconds
 Progress:            0/1
 Parameters:          
@@ -29,31 +29,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  0s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  0s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (1 second ago)
-Started:             Thu Oct 16 15:31:27 +0900 (now)
-Duration:            0 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  0s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (2 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 second ago)
+Created:             Mon Oct 20 21:00:21 +0900 (1 second ago)
+Started:             Mon Oct 20 21:00:21 +0900 (1 second ago)
 Duration:            1 second
 Progress:            0/1
 Parameters:          
@@ -61,15 +43,27 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  1s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (3 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (2 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (1 second ago)
+Started:             Mon Oct 20 21:00:21 +0900 (1 second ago)
+Duration:            1 second
+Progress:            0/1
+Parameters:          
+  input:             sample.jpg
+  image-path:        /data/sample.jpg
+
+[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  1s          
+[H[2J[0;0HName:                image-process-auto-6prnx
+Namespace:           argo
+ServiceAccount:      unset (will run with the default ServiceAccount)
+Status:              Running
+Created:             Mon Oct 20 21:00:21 +0900 (2 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (2 seconds ago)
 Duration:            2 seconds
 Progress:            0/1
 Parameters:          
@@ -77,15 +71,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  2s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  2s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (4 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (3 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (3 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (3 seconds ago)
 Duration:            3 seconds
 Progress:            0/1
 Parameters:          
@@ -93,15 +85,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  3s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  3s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (5 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (4 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (4 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (4 seconds ago)
 Duration:            4 seconds
 Progress:            0/1
 Parameters:          
@@ -109,15 +99,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  4s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  4s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (6 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (5 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (5 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (5 seconds ago)
 Duration:            5 seconds
 Progress:            0/1
 Parameters:          
@@ -125,15 +113,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  5s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  5s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (7 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (6 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (6 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (6 seconds ago)
 Duration:            6 seconds
 Progress:            0/1
 Parameters:          
@@ -141,15 +127,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  6s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  6s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (8 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (7 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (7 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (7 seconds ago)
 Duration:            7 seconds
 Progress:            0/1
 Parameters:          
@@ -157,15 +141,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  7s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  7s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (9 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (8 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (8 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (8 seconds ago)
 Duration:            8 seconds
 Progress:            0/1
 Parameters:          
@@ -173,15 +155,13 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  8s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  8s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
-Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (10 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (9 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (9 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (9 seconds ago)
 Duration:            9 seconds
 Progress:            0/1
 Parameters:          
@@ -189,15 +169,31 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  9s          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [33m◷[0m image-process-auto-6prnx  main      image-process-auto-6prnx  9s          
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
- PodRunning          False
-Created:             Thu Oct 16 15:31:26 +0900 (11 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (10 seconds ago)
+ PodRunning          True
+Created:             Mon Oct 20 21:00:21 +0900 (9 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (9 seconds ago)
+Duration:            9 seconds
+Progress:            0/1
+Parameters:          
+  input:             sample.jpg
+  image-path:        /data/sample.jpg
+
+[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  9s          
+[H[2J[0;0HName:                image-process-auto-6prnx
+Namespace:           argo
+ServiceAccount:      unset (will run with the default ServiceAccount)
+Status:              Running
+Conditions:          
+ PodRunning          True
+Created:             Mon Oct 20 21:00:21 +0900 (10 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (10 seconds ago)
 Duration:            10 seconds
 Progress:            0/1
 Parameters:          
@@ -205,31 +201,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [33m◷[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  10s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  10s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (11 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (10 seconds ago)
-Duration:            10 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  10s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (12 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (11 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (11 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (11 seconds ago)
 Duration:            11 seconds
 Progress:            0/1
 Parameters:          
@@ -237,15 +217,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  11s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  11s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (13 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (12 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (12 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (12 seconds ago)
 Duration:            12 seconds
 Progress:            0/1
 Parameters:          
@@ -253,15 +233,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  12s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  12s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (14 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (13 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (13 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (13 seconds ago)
 Duration:            13 seconds
 Progress:            0/1
 Parameters:          
@@ -269,15 +249,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  13s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  13s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (15 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (14 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (14 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (14 seconds ago)
 Duration:            14 seconds
 Progress:            0/1
 Parameters:          
@@ -285,15 +265,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  14s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  14s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (16 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (15 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (15 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (15 seconds ago)
 Duration:            15 seconds
 Progress:            0/1
 Parameters:          
@@ -301,15 +281,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  15s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  15s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (17 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (16 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (16 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (16 seconds ago)
 Duration:            16 seconds
 Progress:            0/1
 Parameters:          
@@ -317,15 +297,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  16s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  16s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (18 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (17 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (17 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (17 seconds ago)
 Duration:            17 seconds
 Progress:            0/1
 Parameters:          
@@ -333,15 +313,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  17s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  17s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (19 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (18 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (18 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (18 seconds ago)
 Duration:            18 seconds
 Progress:            0/1
 Parameters:          
@@ -349,15 +329,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  18s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  18s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (20 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (19 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (19 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (19 seconds ago)
 Duration:            19 seconds
 Progress:            0/1
 Parameters:          
@@ -365,15 +345,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  19s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  19s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (21 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (20 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (20 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (20 seconds ago)
 Duration:            20 seconds
 Progress:            0/1
 Parameters:          
@@ -381,15 +361,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  20s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  20s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (22 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (21 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (21 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (21 seconds ago)
 Duration:            21 seconds
 Progress:            0/1
 Parameters:          
@@ -397,15 +377,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  21s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  21s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (23 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (22 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (22 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (22 seconds ago)
 Duration:            22 seconds
 Progress:            0/1
 Parameters:          
@@ -413,15 +393,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  22s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  22s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (24 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (23 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (23 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (23 seconds ago)
 Duration:            23 seconds
 Progress:            0/1
 Parameters:          
@@ -429,15 +409,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  23s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  23s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (25 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (24 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (24 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (24 seconds ago)
 Duration:            24 seconds
 Progress:            0/1
 Parameters:          
@@ -445,15 +425,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  24s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  24s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (26 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (25 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (25 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (25 seconds ago)
 Duration:            25 seconds
 Progress:            0/1
 Parameters:          
@@ -461,15 +441,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  25s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  25s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (27 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (26 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (26 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (26 seconds ago)
 Duration:            26 seconds
 Progress:            0/1
 Parameters:          
@@ -477,15 +457,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  26s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  26s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (28 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (27 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (27 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (27 seconds ago)
 Duration:            27 seconds
 Progress:            0/1
 Parameters:          
@@ -493,15 +473,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  27s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  27s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (29 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (28 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (28 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (28 seconds ago)
 Duration:            28 seconds
 Progress:            0/1
 Parameters:          
@@ -509,15 +489,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  28s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  28s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (30 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (29 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (29 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (29 seconds ago)
 Duration:            29 seconds
 Progress:            0/1
 Parameters:          
@@ -525,15 +505,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  29s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  29s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (31 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (30 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (30 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (30 seconds ago)
 Duration:            30 seconds
 Progress:            0/1
 Parameters:          
@@ -541,15 +521,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  30s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  30s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (32 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (31 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (31 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (31 seconds ago)
 Duration:            31 seconds
 Progress:            0/1
 Parameters:          
@@ -557,15 +537,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  31s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  31s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (33 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (32 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (32 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (32 seconds ago)
 Duration:            32 seconds
 Progress:            0/1
 Parameters:          
@@ -573,15 +553,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  32s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  32s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (34 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (33 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (33 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (33 seconds ago)
 Duration:            33 seconds
 Progress:            0/1
 Parameters:          
@@ -589,15 +569,31 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  33s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  33s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (35 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (34 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (33 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (33 seconds ago)
+Duration:            33 seconds
+Progress:            0/1
+Parameters:          
+  input:             sample.jpg
+  image-path:        /data/sample.jpg
+
+[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  33s         
+[H[2J[0;0HName:                image-process-auto-6prnx
+Namespace:           argo
+ServiceAccount:      unset (will run with the default ServiceAccount)
+Status:              Running
+Conditions:          
+ PodRunning          True
+Created:             Mon Oct 20 21:00:21 +0900 (34 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (34 seconds ago)
 Duration:            34 seconds
 Progress:            0/1
 Parameters:          
@@ -605,15 +601,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  34s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  34s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (36 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (35 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (35 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (35 seconds ago)
 Duration:            35 seconds
 Progress:            0/1
 Parameters:          
@@ -621,15 +617,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  35s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  35s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (37 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (36 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (36 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (36 seconds ago)
 Duration:            36 seconds
 Progress:            0/1
 Parameters:          
@@ -637,15 +633,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  36s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  36s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (38 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (37 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (37 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (37 seconds ago)
 Duration:            37 seconds
 Progress:            0/1
 Parameters:          
@@ -653,15 +649,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  37s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  37s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (39 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (38 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (38 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (38 seconds ago)
 Duration:            38 seconds
 Progress:            0/1
 Parameters:          
@@ -669,15 +665,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  38s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  38s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (40 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (39 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (39 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (39 seconds ago)
 Duration:            39 seconds
 Progress:            0/1
 Parameters:          
@@ -685,15 +681,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  39s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  39s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (41 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (40 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (40 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (40 seconds ago)
 Duration:            40 seconds
 Progress:            0/1
 Parameters:          
@@ -701,15 +697,15 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  40s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  40s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Running
 Conditions:          
  PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (42 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (41 seconds ago)
+Created:             Mon Oct 20 21:00:21 +0900 (41 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (41 seconds ago)
 Duration:            41 seconds
 Progress:            0/1
 Parameters:          
@@ -717,457 +713,25 @@ Parameters:
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  41s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (43 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (42 seconds ago)
-Duration:            42 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  42s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (45 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (44 seconds ago)
-Duration:            44 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  44s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (46 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (45 seconds ago)
-Duration:            45 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  45s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (47 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (46 seconds ago)
-Duration:            46 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  46s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (48 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (47 seconds ago)
-Duration:            47 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  47s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (49 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (48 seconds ago)
-Duration:            48 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  48s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (50 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (49 seconds ago)
-Duration:            49 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  49s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (51 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (50 seconds ago)
-Duration:            50 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  50s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (52 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (51 seconds ago)
-Duration:            51 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  51s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (53 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (52 seconds ago)
-Duration:            52 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  52s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (54 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (53 seconds ago)
-Duration:            53 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  53s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (55 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (54 seconds ago)
-Duration:            54 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  54s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (56 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (55 seconds ago)
-Duration:            55 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  55s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (57 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (56 seconds ago)
-Duration:            56 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  56s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (58 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (57 seconds ago)
-Duration:            57 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  57s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (59 seconds ago)
-Started:             Thu Oct 16 15:31:27 +0900 (58 seconds ago)
-Duration:            58 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  58s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (59 seconds ago)
-Duration:            59 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  59s         
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 0 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 1 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 2 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 3 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 4 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 5 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 6 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 7 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 8 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
-Namespace:           argo
-ServiceAccount:      unset (will run with the default ServiceAccount)
-Status:              Running
-Conditions:          
- PodRunning          True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Duration:            1 minute 9 seconds
-Progress:            0/1
-Parameters:          
-  input:             sample.jpg
-  image-path:        /data/sample.jpg
-
-[39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [36m●[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[H[2J[0;0HName:                image-process-auto-5dqrz
+ [36m●[0m image-process-auto-6prnx  main      image-process-auto-6prnx  41s         
+[H[2J[0;0HName:                image-process-auto-6prnx
 Namespace:           argo
 ServiceAccount:      unset (will run with the default ServiceAccount)
 Status:              Succeeded
 Conditions:          
  PodRunning          False
  Completed           True
-Created:             Thu Oct 16 15:31:26 +0900 (1 minute ago)
-Started:             Thu Oct 16 15:31:27 +0900 (1 minute ago)
-Finished:            Thu Oct 16 15:32:37 +0900 (now)
-Duration:            1 minute 10 seconds
+Created:             Mon Oct 20 21:00:21 +0900 (42 seconds ago)
+Started:             Mon Oct 20 21:00:21 +0900 (42 seconds ago)
+Finished:            Mon Oct 20 21:01:03 +0900 (now)
+Duration:            42 seconds
 Progress:            1/1
-ResourcesDuration:   1m54s*(100Mi memory),10s*(1 cpu)
+ResourcesDuration:   6s*(1 cpu),1m2s*(100Mi memory)
 Parameters:          
   input:             sample.jpg
   image-path:        /data/sample.jpg
 
 [39mSTEP[0m                         TEMPLATE  PODNAME                   DURATION  MESSAGE
- [32m✔[0m image-process-auto-5dqrz  main      image-process-auto-5dqrz  1m          
-[2025-10-16 15:32:37,223] INFO: ✅ Workflow triggered for sample.jpg
-[2025-10-16 15:32:37,223] INFO: 🗑️ Deleted source image: sample.jpg
+ [32m✔[0m image-process-auto-6prnx  main      image-process-auto-6prnx  33s         
+[2025-10-20 21:01:03,650] INFO: ✅ Workflow triggered for sample.jpg
+[2025-10-20 21:01:03,651] INFO: 🗑️ Deleted source image: sample.jpg

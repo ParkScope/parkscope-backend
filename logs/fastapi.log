@@ -1,8 +1,27 @@
-INFO:     Started server process [6226]
+INFO:     Started server process [6358]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     210.108.18.151:0 - "GET / HTTP/1.1" 404 Not Found
-INFO:     210.108.18.151:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-INFO:     210.108.18.151:0 - "GET /docs HTTP/1.1" 200 OK
-INFO:     210.108.18.151:0 - "GET /openapi.json HTTP/1.1" 200 OK
+🚀 Starting FastAPI server at http://127.0.0.1:8000
+INFO:     39.125.247.138:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     39.125.247.138:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     39.125.247.138:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     39.125.247.138:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     2001:2d8:ef35:a043:4976:2e94:2b4:a072:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     2001:2d8:ef35:a043:4976:2e94:2b4:a072:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     210.107.70.232:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     210.107.70.232:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     211.231.103.106:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     27.0.238.68:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     210.107.70.232:0 - "GET / HTTP/1.1" 200 OK
+INFO:     210.107.70.232:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     210.107.70.232:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     210.107.70.232:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     210.108.18.183:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     210.108.18.183:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     210.108.18.183:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     2001:2d8:e732:8e38:6571:e0e3:87ee:8485:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2001:2d8:e732:8e38:6571:e0e3:87ee:8485:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     2001:2d8:e732:8e38:6571:e0e3:87ee:8485:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     2001:2d8:ef35:a043:b5fa:885e:53ff:9347:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     2001:2d8:ef35:a043:b5fa:885e:53ff:9347:0 - "GET /openapi.json HTTP/1.1" 200 OK
